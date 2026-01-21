@@ -41,3 +41,12 @@ This is an open-source project and is not available on the Google Play Store.
 * **Language:** Kotlin / Java
 * **API Level:** Min SDK 24+
 * **Sensors:** `TYPE_ACCELEROMETER`, `TYPE_LIGHT`
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+
+---
+
+Developed as a college assignment for Pemrograman Perangkat Bergerak 2 (PPB2) / Mobile Development 2.

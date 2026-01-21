@@ -4,7 +4,7 @@ Bahasa Indonesia | [English](README.md)
 
 **FocusTimer** adalah aplikasi produktivitas Android yang memastikan Anda tetap fokus dan menjauh dari ponsel saat bekerja. Tidak seperti timer tradisional, FocusTimer hanya akan berjalan jika perangkat diletakkan dengan posisi **layar menghadap ke bawah** (face-down) di atas permukaan yang solid. Jika ponsel dibalik atau diangkat, timer akan otomatis berhenti (pause).
 
----
+
 
 ## 🚀 Cara Kerja
 FocusTimer menggunakan logika **Sensor Fusion** untuk memverifikasi bahwa ponsel benar-benar diletakkan dalam posisi fokus. Aplikasi ini memantau dua sensor perangkat keras khusus:
@@ -18,7 +18,7 @@ FocusTimer menggunakan logika **Sensor Fusion** untuk memverifikasi bahwa ponsel
 
 Timer hanya akan mulai jika **$Z \approx -9.8$** DAN **Lux $\approx 0$**.
 
----
+
 
 ## ✨ Fitur Utama
 * **Pemicu Gravitasi:** Timer hanya berjalan jika ponsel diletakkan menghadap ke bawah.
@@ -27,7 +27,7 @@ Timer hanya akan mulai jika **$Z \approx -9.8$** DAN **Lux $\approx 0$**.
 * **Preset Cepat:** Tombol khusus untuk durasi 30 menit, 10 menit, dan 2 menit.
 * **Reset Manual:** Menghentikan timer di tengah sesi akan mereset waktu ke awal, mendorong penyelesaian sesi secara penuh.
 
----
+
 
 ## 📥 Instalasi
 Ini adalah proyek open-source mahasiswa dan saat ini tidak tersedia di Google Play Store.
@@ -37,18 +37,18 @@ Ini adalah proyek open-source mahasiswa dan saat ini tidak tersedia di Google Pl
 3.  Pindahkan APK ke ponsel Anda dan buka.
 4.  Aktifkan **"Install from Unknown Sources"** jika diminta oleh sistem.
 
----
+
 
 ## 🛠 Detail Teknis
 * **Bahasa:** [Kotlin / Java]
 * **API Level:** Min SDK 24+
 * **Sensor:** `TYPE_ACCELEROMETER`, `TYPE_LIGHT`
 
----
+
 
 ## 📄 Lisensi
 Proyek ini dilisensikan di bawah **MIT License**. Lihat file `LICENSE` untuk detail lebih lanjut.
 
----
 
-Dikembangkan sebagai tugas kuliah untuk mata kuliah Pemrograman Perangkat Bergerak 2 (PPB2).
+
+*Dikembangkan sebagai tugas kuliah untuk mata kuliah Pemrograman Perangkat Bergerak 2 (PPB2).*

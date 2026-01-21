@@ -1,6 +1,6 @@
 Bahasa Indonesia | [English](README.md)
 
-# FocusTimer ⏳
+# FocusTimer
 
 **FocusTimer** adalah aplikasi produktivitas Android yang memastikan Anda tetap fokus dan menjauh dari ponsel saat bekerja. Tidak seperti timer tradisional, FocusTimer hanya akan berjalan jika perangkat diletakkan dengan posisi **layar menghadap ke bawah** (face-down) di atas permukaan yang solid. Jika ponsel dibalik atau diangkat, timer akan otomatis berhenti (pause).
 
@@ -22,7 +22,7 @@ Timer hanya akan mulai jika **$Z \approx -9.8$** DAN **Lux $\approx 0$**.
 
 
 
-## ✨ Fitur Utama
+## Fitur Utama
 * **Pemicu Gravitasi:** Timer hanya berjalan jika ponsel diletakkan menghadap ke bawah.
 * **Angkat Pause:** Logika jeda otomatis jika ponsel diangkat untuk mencegah gangguan.
 * **Alarm Persisten:** Saat timer habis, ponsel akan bergetar terus-menerus hingga pengguna menekan tombol stop secara manual.
@@ -31,7 +31,7 @@ Timer hanya akan mulai jika **$Z \approx -9.8$** DAN **Lux $\approx 0$**.
 
 
 
-## 📥 Instalasi
+## Instalasi
 Ini adalah proyek open-source mahasiswa dan saat ini tidak tersedia di Google Play Store.
 
 1.  Buka tab **[Releases](https://github.com/VHarya/FocusTimer/releases)**.
@@ -41,14 +41,14 @@ Ini adalah proyek open-source mahasiswa dan saat ini tidak tersedia di Google Pl
 
 
 
-## 🛠 Detail Teknis
+## Detail Teknis
 * **Bahasa:** [Kotlin / Java]
 * **API Level:** Min SDK 24+
 * **Sensor:** `TYPE_ACCELEROMETER`, `TYPE_LIGHT`
 
 
 
-## 📄 Lisensi
+## Lisensi
 Proyek ini dilisensikan di bawah **MIT License**. Lihat file `LICENSE` untuk detail lebih lanjut.
 
 

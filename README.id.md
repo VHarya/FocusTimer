@@ -4,7 +4,9 @@ Bahasa Indonesia | [English](README.md)
 
 **FocusTimer** adalah aplikasi produktivitas Android yang memastikan Anda tetap fokus dan menjauh dari ponsel saat bekerja. Tidak seperti timer tradisional, FocusTimer hanya akan berjalan jika perangkat diletakkan dengan posisi **layar menghadap ke bawah** (face-down) di atas permukaan yang solid. Jika ponsel dibalik atau diangkat, timer akan otomatis berhenti (pause).
 
+## Screenshots
 
+<img src="https://drive.google.com/uc?export=view&id=18QC9QpOeDJWVdhCtFDnhBwmmuNAPlbxQ" alt="Logo" width="200"> <img src="https://drive.google.com/uc?export=view&id=1Z-s7ihEYx_aqG2ZAGCo2Whf_YDGBwPGm" alt="Logo" width="200">
 
 ## 🚀 Cara Kerja
 FocusTimer menggunakan logika **Sensor Fusion** untuk memverifikasi bahwa ponsel benar-benar diletakkan dalam posisi fokus. Aplikasi ini memantau dua sensor perangkat keras khusus:

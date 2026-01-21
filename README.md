@@ -1,7 +1,7 @@
 [Bahasa Indonesia](README.id.md) | English
 
 
-# FocusTimer ⏳
+# FocusTimer
 
 **FocusTimer** is a productivity-driven Android application that ensures you stay off your phone while working. Unlike traditional timers, FocusTimer only runs when your device is placed **face-down** on a solid surface. If you flip the phone over or pick it up, the timer immediately pauses.
 
@@ -18,11 +18,11 @@ FocusTimer uses **Sensor Fusion** logic to verify that the phone is properly pla
 2.  **Ambient Light Sensor (Lux):** * To prevent "cheating" (simply holding the phone upside down in the air), the app checks the light level.
     * When placed against a solid surface, the lux value drops to **near 0**, confirming the screen is covered.
 
-The timer starts only when **$Z \approx -8$** AND **Lux $\approx 0$**.
+The timer starts only when **$Z \approx -8$** AND **Lux $\approx 5$**.
 
 
 
-## ✨ Key Features
+## Key Features
 * **FaceDown Start:** The timer only counts down when the phone is physically placed face-down.
 * **Lift-to-Pause:** Immediate pausing logic if the phone is picked up, preventing distractions.
 * **Persistent Alarm:** Once the timer hits zero, the phone vibrates continuously until the user manually stops it, ensuring you are alerted even if the phone is still face-down.
@@ -31,7 +31,7 @@ The timer starts only when **$Z \approx -8$** AND **Lux $\approx 0$**.
 
 
 
-## 📥 Installation
+## Installation
 This is an open-source project and is not available on the Google Play Store.
 
 1.  Go to the **[Releases](https://github.com/VHarya/FocusTimer/releases)** tab.
@@ -41,14 +41,14 @@ This is an open-source project and is not available on the Google Play Store.
 
 
 
-## 🛠 Technical Details
-* **Language:** Kotlin / Java
-* **API Level:** Min SDK 24+
+## Technical Details
+* **Language:** Kotlin
+* **API Level:** Min SDK 27+
 * **Sensors:** `TYPE_ACCELEROMETER`, `TYPE_LIGHT`
 
 
 
-## 📄 License
+## License
 This project is licensed under the **MIT License**. See the `LICENSE` file for details.
 
 ---
